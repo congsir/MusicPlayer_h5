@@ -1,0 +1,25 @@
+{
+  "name": "musicplayer_h5",
+  "version": "1.0.0",
+  "description": "this is a h5 music player",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/congsir/MusicPlayer_h5.git"
+  },
+  "author": "congsir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/congsir/MusicPlayer_h5/issues"
+  },
+  "homepage": "https://github.com/congsir/MusicPlayer_h5#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
