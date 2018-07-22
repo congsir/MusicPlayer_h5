@@ -34,8 +34,6 @@ gulp.task("images",function(){
 gulp.task('js',function(){
     gulp.src(folder.src + 'js/*')
         .pipe(connect.reload())
-        .pipe(stripDebug())
-        .pipe(uglify())
         .pipe(gulp.dest(folder.dist + 'js/'))
 })
 

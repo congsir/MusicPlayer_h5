@@ -8,6 +8,9 @@
 body{
     width: 100vw;
     height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
 
     .wrapper{
         position: relative;
@@ -30,6 +33,11 @@ body{
                 left: 0;
                 right: 0;
                 bottom: 0;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
             }
         }
 
@@ -143,6 +151,9 @@ body{
 
             .like-btn{
                 background-image: url('../images/icon-like.png');
+                &.liking{
+                    background-image: url('../images/icon-like-solid.png');
+                }
             }
 
             .pre-btn{
@@ -151,6 +162,10 @@ body{
 
             .play-btn{
                 background-image: url('../images/icon-play.png');
+            }
+
+            .playing{
+                background-image: url('../images/icon-pause.png');
             }
 
             .next-btn{
